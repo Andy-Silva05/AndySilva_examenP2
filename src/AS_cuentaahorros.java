@@ -1,11 +1,15 @@
 public class AS_cuentaahorros {
-    private boolean Saldo_disponible;
+    private boolean cuenta;
+    float saldo_disponible;
     float tasa_anual;
     float cantidaddepo;
     float cantidadretiro;
 
-    public boolean isSaldo_disponible() {
-        return Saldo_disponible;
+    public boolean iscuenta() {
+        return cuenta;
+    }
+    float sdisponible(){
+        return saldo_disponible;
     }
 
     float interes() {
@@ -19,5 +23,4 @@ public class AS_cuentaahorros {
     float retiro() {
         return cantidadretiro;
     }
-
 }
